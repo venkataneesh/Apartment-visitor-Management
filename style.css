@@ -1,0 +1,56 @@
+body {
+    background-image: url('pexels-alifia-harina-2779503.jpg');
+    background-size: cover;
+    background-position: full;
+  }
+  
+  
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login-form {
+    height: 410px;
+    width: 370px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    color: black;
+padding-top: 60px;
+}
+
+.login h3{
+    letter-spacing: 1px;
+}
+
+input {
+    width: 300px;
+    margin-top: 30px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    box-shadow: 0 0 4px black;
+    transition: box-shadow 0.5s ease; 
+    color: white;
+}
+
+
+
+input[placeholder]:focus{
+    color: black;
+}
+
+input:focus,
+.btn:hover{
+    background: transparent;
+    box-shadow: 0 0 50px black;
+    
+}
